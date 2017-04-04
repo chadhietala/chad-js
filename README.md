@@ -6,7 +6,9 @@ Chad.js is a no-frils component library that leaves solving the hard problems to
 
 Chad.js is the fastest rendering engine out there, with a file size of less that 200 bytes and "Hello World" app that comes in at 300B with an initial render time of 700 microseconds! Here is how this stacks up.
 
-!()[http://i.imgur.com/pbzJyXG.png]
+![](http://i.imgur.com/pbzJyXG.png)
+
+![](http://i.imgur.com/HaKEl0p.png)
 
 # Integrates With
 
