@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "simple-dom": "^0.3.2"
+  }
+}
