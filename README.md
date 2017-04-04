@@ -26,6 +26,24 @@ class App extends Component {
 mount(App, document.body);
 ```
 
+You can even do that fancy compostion thing that all "In the know" developers are talking about.
+
+```
+class MyOtherComponent extends Component {
+  render() {
+    return this.t('Welcome to Chad.js')
+  }
+}
+
+class App extends Component {
+  render() {
+    return this.h('h1', () => (
+      new MyOtherComponent(this.doc).render()
+    ));
+  }
+}
+```
+
 However, if the `Component` abstraction is too magical for you, you can simply just drop down one level by using the maximumly flexible primatives:
 
 ```

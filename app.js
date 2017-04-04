@@ -1,7 +1,14 @@
+
+class MyOtherComponent extends Component {
+  render() {
+    return this.t('Welcome to Chad.js')
+  }
+}
+
 class App extends Component {
   render() {
     return this.h('h1', () => (
-      this.t('Hello World')
+      new MyOtherComponent(this.doc).render()
     ));
   }
 }
