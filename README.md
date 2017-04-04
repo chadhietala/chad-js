@@ -10,6 +10,32 @@ Chad.js is the fastest rendering engine out there, with a file size of less that
 
 ![](http://i.imgur.com/HaKEl0p.png)
 
+# Getting Started
+
+Chad.js is very stripped down component library and because of that it only knows how to create elements and text nodes. If you want a different DOM abstraction you're on the hook to add them by modifying the prototype of the `Component` base class before you mount your app. You probably don't care about that because you're considering my micro-library so you must be a masochist or one of those folks that want to build modern javascript applications but have a death grip on "no build tools" and "JavaScript should always be the wild west". Anyways the simplest application looks like the following.
+
+```
+class App extends Component {
+  render() {
+    return this.h.createElement('h1', () => (
+      this.t('Hello World')
+    ));
+  }
+}
+
+mount(App, document.body);
+```
+
+However, if the `Component` abstraction is too magical for you, you can simply just drop down one level by using the maximumly flexible primatives:
+
+```
+let h1 = document.createElement('h1');
+h1.appendChild(document.createTextNode('Hello World'));
+document.body.appendChild(h1);
+```
+
+Actually, why the hell would you ever use an abstraction like mien, clearly using these fine APIs that browser vendors have blessed us with is enough to build any application. Now that I think about it, you should probably check out this amazing library called [Vanilla JS](http://vanilla-js.com/).
+
 # Integrates With
 
 - Webpack
@@ -33,4 +59,6 @@ Chad.js is the fastest rendering engine out there, with a file size of less that
 - Literally thoughsands of more choices.
 
 
+# What's Next
 
+Nothing it has been poured in concrete never to be iterared on again.
