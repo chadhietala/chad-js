@@ -17,7 +17,7 @@ Chad.js is very stripped down component library and because of that it only know
 ```
 class App extends Component {
   render() {
-    return this.h.createElement('h1', () => (
+    return this.h('h1', () => (
       this.t('Hello World')
     ));
   }
