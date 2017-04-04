@@ -1,6 +1,6 @@
 # Chad.JS
 
-Chad.js is a no-frils component library that leaves solving the hard problems to you. It is architected in a way that allows you navigate the waters of cofiguration hell and intregate in any web framework stacks.
+Chad.js is a no-frils component library that leaves solving the hard problems to you. It is architected in a way that allows you navigate the waters of cofiguration hell and to integrate in any web framework stacks.
 
 # Performance
 
