@@ -52,7 +52,7 @@ h1.appendChild(document.createTextNode('Hello World'));
 document.body.appendChild(h1);
 ```
 
-Actually, why the hell would you ever use an abstraction like mien, clearly using these fine APIs that browser vendors have blessed us with is enough to build any application. Now that I think about it, you should probably check out this amazing library called [Vanilla JS](http://vanilla-js.com/).
+Actually, why the hell would you ever use an abstraction like mine, clearly using these fine APIs that browser vendors have blessed us with is enough to build any application. Now that I think about it, you should probably check out this amazing library called [Vanilla JS](http://vanilla-js.com/).
 
 # Integrates With
 
@@ -79,4 +79,4 @@ Actually, why the hell would you ever use an abstraction like mien, clearly usin
 
 # What's Next
 
-Nothing it has been poured in concrete never to be iterared on again.
+Nothing it has been poured in concrete never to be iterated on again.
